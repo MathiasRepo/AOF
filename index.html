@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test</title>
     <link rel="stylesheet" href="./Styles/style.css" />
+    <script src="Javascript.js"></script>
   </head>
   <body>
     <div id="container">
       <h1>En to, en to, er denne på?</h1>
       <p class="paragraphStyle">PeepO</p>
-      <span style="color:rgb(55, 255, 48)">span??</span>
+      <span style="color: rgb(0, 190, 181)">span??</span>
       <br />
       <hr />
       <iframe
@@ -25,23 +26,21 @@
       >
       </iframe>
     </div>
+    <div id="box"></div>
+    <div id="knapper">
+      <button id="grønn" onclick="changeColor()">Grønn</button>
+      <button id="gul">Gul</button>
+      <button id="blå">Blå</button>
+    </div>
+    <div id="liste">
     <button class="buttons" onClick="buttonClick()">What</button>
+    <h3>Liste med lister</h3>
     <ul class="list">
-      <li>En liste</li>
-      <li>To lister</li>
-      <li>Tre lister</li>
-      <li>Fire lister</li>
+      <li><a href="https://en.wikipedia.org/wiki/List_of_lists_of_lists">En liste</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/List_of_lists_of_lists">To lister</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/List_of_lists_of_lists">Tre lister</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/List_of_lists_of_lists">Fire lister</a></li>
     </ul>
-    <script>
-      function buttonClick() {
-        let num1 = 3;
-        let num2 = 4;
-
-        let sum = num1 + num2;
-
-        alert(`${num1} + ${num2} = ${sum}`);
-        window.location.reload();
-      }
-    </script>
+  </div>
   </body>
 </html>
