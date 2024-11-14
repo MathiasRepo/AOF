@@ -15,7 +15,6 @@ body {
   background-image: url(background-space.jpg);
   background-size: auto;
   background-position: center;
-  transition-duration: 1s;
 }
 h1 {
   text-transform: uppercase;
